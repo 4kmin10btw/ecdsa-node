@@ -1,0 +1,6 @@
+@'
+node_modules/
+dist/
+.env
+client/private/keys.txt
+'@ | Set-Content -Path "$dst\.gitignore" -Encoding utf8
